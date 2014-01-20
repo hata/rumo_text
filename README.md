@@ -1,7 +1,7 @@
 # rumo_text
 
-This library is a wrapper classes to use Core Text. This can help
-to use attributes to draw a text using context.
+This library is wrapper classes to use Core Text in RubyMotion. It can help
+to use attributes to draw text.
 
 ## Installation
 
