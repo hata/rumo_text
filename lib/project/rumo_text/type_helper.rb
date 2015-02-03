@@ -19,8 +19,8 @@ module RumoText
     end
 
     def size
-      size_ptr = Pointer.new('I')
-      align_ptr = Pointer.new('I')
+      size_ptr = Pointer.new('Q')
+      align_ptr = Pointer.new('Q')
       NSGetSizeAndAlignment(type, size_ptr, align_ptr)
       size_ptr.value
     end
